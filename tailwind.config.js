@@ -6,6 +6,8 @@ export default {
       fontFamily: {
         sans: ["DM Sans", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        courier:["Courier","sans-serif"]
+
       },
       colors: {
         primary: "#5BB5A2",
