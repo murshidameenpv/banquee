@@ -6,13 +6,13 @@ export default {
       fontFamily: {
         sans: ["DM Sans", "sans-serif"],
         inter: ["Inter", "sans-serif"],
-        courier:["Courier","sans-serif"]
-
+        courier: ["Courier", "sans-serif"],
       },
       colors: {
         primary: "#5BB5A2",
         bgPrimary: "#FFFFFF",
-        bgSecondary:"#E8F2EE",
+        bgSecondary: "#E8F2EE",
+        bgGray: "#F8F8F8",
       },
     },
   },

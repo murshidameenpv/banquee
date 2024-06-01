@@ -6,7 +6,6 @@ const cardData = [
     cardNumber: "9876 5432 1098 7654",
     expiryDate: "09/23",
     cardBrand: "GoldCard",
-    marginBottom: "mb-[-100px]",
   },
   {
     backgroundColor: "bg-gradient-to-r from-[#485563] to-[#29323C]",
@@ -14,7 +13,6 @@ const cardData = [
     cardNumber: "1332 4343 23434 543",
     expiryDate: "03/26",
     cardBrand: "Banquee",
-    marginBottom: "mb-[-50px]",
   },
   {
     backgroundColor: "bg-gradient-to-r from-[#5BB5A2] to-[#53A191]",
@@ -22,7 +20,6 @@ const cardData = [
     cardNumber: "5555 1234 5678 9012",
     expiryDate: "12/24",
     cardBrand: "CardCo",
-    marginBottom: "mb-[-10px]",
   },
   {
     backgroundColor: "bg-gradient-to-r from-[#485563] to-[#29323C]",
@@ -30,7 +27,6 @@ const cardData = [
     cardNumber: "1332 4343 23434 543",
     expiryDate: "03/26",
     cardBrand: "Banquee",
-    marginBottom: "mb-[-50px]",
   },
   {
     backgroundColor: "bg-gradient-to-r from-[#E3C79E] to-[#D6AE7B]",
@@ -38,7 +34,6 @@ const cardData = [
     cardNumber: "9876 5432 1098 7654",
     expiryDate: "09/23",
     cardBrand: "GoldCard",
-    marginBottom: "mb-[-100px]",
   },
 ];
         const Hero = () => {
@@ -80,7 +75,9 @@ const cardData = [
             </div>
             <div className="flex h-full">
               {cardData.map((card, index) => (
-                <CreditCard key={index} {...card} />
+                <div key={index}  className=" transform rotate-90 mt-16">
+                  <CreditCard {...card} />
+                </div>
               ))}
             </div>
           </section>

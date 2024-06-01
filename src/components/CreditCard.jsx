@@ -11,7 +11,7 @@
         console.log(marginBottom);
         return (
           <div
-            className={`flex flex-col text-white p-4 rounded-lg font-inter mt-16   ${backgroundColor} transform rotate-90 w-60 h-44`}
+            className={`flex flex-col text-white p-4 rounded-lg font-inter ${backgroundColor} w-60 h-44`}
             
           >
             <div className="flex justify-between">
