@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Notification from "./components/Notification";
 import Savings from "./components/Savings";
 import ThirdParty from "./components/ThirdParty";
+import Tools from "./components/Tools";
 import Transactions from "./components/Transactions";
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <Transactions />
       <Savings />
       <Notification />
-      <ThirdParty/>
+      <ThirdParty />
+      <Tools/>
     </>
   );
 }
