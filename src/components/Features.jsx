@@ -82,7 +82,7 @@ const Features = () => {
           ))}
         </div>
       </div>
-      <div className="w-1/2 hidden md:flex items-center justify-center">
+      <div className="w-1/2 hidden md:flex mt-16 items-center justify-center">
         <div className="flex flex-col mt-16 border-[5px] rounded-[2rem] border-black px-3 py-2">
           <div className="flex items-center justify-around">
             <span className="text-sm font-inter">Current Balance</span>
