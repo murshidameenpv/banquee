@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-    const CreditCard = ({
+    const   CreditCard = ({
     backgroundColor,
     name,
     cardNumber,
