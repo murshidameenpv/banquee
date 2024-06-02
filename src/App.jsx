@@ -3,6 +3,7 @@ import Account from "./components/Account";
 import Features from "./components/Features";
 
 import Hero from "./components/Hero";
+import MobileCard from "./components/MobileCard";
 import Navbar from "./components/Navbar";
 import Notification from "./components/Notification";
 import Savings from "./components/Savings";
@@ -23,7 +24,8 @@ function App() {
       <ThirdParty />
       <Tools />
       <Account />
-      <Testimonials/>
+      <Testimonials />
+      <MobileCard/>
     </>
   );
 }
