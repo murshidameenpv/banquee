@@ -1,8 +1,8 @@
 
 
-const Features2 = () => {
+const Transactions = () => {
   return (
-    <div className="flex items-center justify-center bg-bgSecondary h-96 pb-4 pt-8 mt-8 mb-8 md:flex-row flex-col overflow-hidden">
+    <div className="flex items-center justify-center bg-bgSecondary h-96 pb-4 pt-8 mt-8 md:flex-row flex-col overflow-hidden">
       <div className="w-1/2 flex flex-col justify-center items-start mt-4 ml-20 gap-3">
         <h1 className="text-5xl font-sans">Send & Recieve </h1>
         <h1 className="text-5xl font-sans">Money Instantly</h1>
@@ -217,4 +217,4 @@ const Features2 = () => {
   );
 }
 
-export default Features2
+export default Transactions;    
