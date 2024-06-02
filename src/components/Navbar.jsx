@@ -1,4 +1,10 @@
 const Navbar = () => {
+  const handleScroll = (e, sectionId) => {
+    e.preventDefault();
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="navbar bg-bgPrimary">
       <div className="navbar-start">
@@ -24,10 +30,14 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Features</a>
+              <a href="#features" onClick={(e) => handleScroll(e, "features")}>
+                Features
+              </a>
             </li>
             <li>
-              <a>Compare</a>
+              <a href="#compare" onClick={(e) => handleScroll(e, "compare")}>
+                Compare
+              </a>
               <ul className="p-2">
                 <li>
                   <a>Submenu 1</a>
@@ -38,10 +48,14 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <a>Support</a>
+              <a href="#support" onClick={(e) => handleScroll(e, "upport")}>
+                Support
+              </a>
             </li>
             <li>
-              <a>Blog</a>
+              <a href="#blog" onClick={(e) => handleScroll(e, "blog")}>
+                Blog
+              </a>
               <ul className="p-2">
                 <li>
                   <a>Submenu 1</a>
@@ -60,7 +74,9 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-inter">
           <li>
-            <a>Features</a>
+            <a href="#features" onClick={(e) => handleScroll(e, "features")}>
+              Features
+            </a>
           </li>
           <li>
             <details>
@@ -76,20 +92,14 @@ const Navbar = () => {
             </details>
           </li>
           <li>
-            <a>Support</a>
+            <a href="#support" onClick={(e) => handleScroll(e, "support")}>
+              Support
+            </a>
           </li>
           <li>
-            <details>
-              <summary>Blog</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
+            <a href="#support" onClick={(e) => handleScroll(e, "blog")}>
+              Blog
+            </a>
           </li>
         </ul>
       </div>

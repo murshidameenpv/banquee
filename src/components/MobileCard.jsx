@@ -9,7 +9,7 @@ import CreditCard from './CreditCard';
   };
 const MobileCard = () => {
   return (
-    <div className="w-full flex items-center justify-center mt-16">
+    <div className="w-full md:flex items-center justify-center mt-16 hidden">
       <div className="flex w-[700px] bg-gradient-to-r from-[#5BB5A2] to-[#3a6b60] rounded-lg text-white px-10 py-10 h-[450px] overflow-hidden">
         <div className="w-1/2 flex flex-col gap-10">
           <h1 className="text-3xl flex flex-col font-semibold">

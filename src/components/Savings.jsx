@@ -28,14 +28,14 @@ const cardData = [
 
 const Savings = () => {
     return (
-      <div className="flex-col flex items-start justify-start mt-16 ml-20 gap-4">
+      <div className="flex-col flex mt-16 ml-20 gap-4">
         <span className="font-inter text-sm">Savings Account</span>
         <h1 className="text-4xl font-sans flex flex-col">
           <span>Organize your</span>
           <span>money the right way</span>
         </h1>
         <div className="flex items-center justify-between">
-          <div className="w-1/2">
+          <div   className="w-1/2">
             {" "}
             <span className="text-xs font-inter">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. ipsum,
@@ -58,7 +58,7 @@ const Savings = () => {
             </svg>
           </button>
         </div>
-        <div className="flex flex-col md:flex-row  ml-16 px-16  items-center justify-center gap-4">
+        <div className="flex flex-col md:flex-row  ml-2 px-16  items-center justify-center gap-4">
           {cardData.map((card, index) => (
             <FeatureCards key={index} {...card} />
           ))}
